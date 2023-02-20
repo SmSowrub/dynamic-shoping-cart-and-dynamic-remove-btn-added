@@ -78,7 +78,7 @@ function createTable(num, fName, fPrice, fQuantity, Total){
         <td>${fPrice}</td>
         <td>${fQuantity}</td>
         <td>${Total}</td>
-        <td><button class="btn"><i class="fa-solid fa-trash dlt-btn"></i></button></td>
+        <td><button><i class="fa-solid fa-trash dlt-btn"></i></button></td>
     `
     setTable.appendChild(tr);
     delate();
